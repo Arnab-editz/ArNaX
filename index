@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+int main() {
+  int n;
+  printf("Enter a Age: ");
+  scanf("%d", &n);
+
+  if(n<=10){
+    printf("You Are a Child");
+  }
+  else if(n<=16){
+    printf("You Are a Jumior");
+  }
+  else if(n<=18){
+    printf("You Are a Young");
+  }
+  else if(n<60){
+    printf("You Are an Adult");
+  }
+  else{
+    printf("You Are an Old");
+  }    return 0;
+}
